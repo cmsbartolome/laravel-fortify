@@ -1,0 +1,41 @@
+
+
+/* The message box is shown when the users clicks on the password field */
+#message {
+  display:none;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -15px;
+  content: "✔";
+  font-size: 10px;
+  color: green;
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -15px;
+  content: "✖";
+  font-size: 10px;
+  color: red;
+}
+
+#msg{
+  display:none;
+}
+
+#options > .dropdown_type > .option_type:hover{
+    background-color: #eeeeee;
+
+}
